@@ -1,0 +1,3 @@
+goto_add:
+  - action: click
+    locator: //*[@text='手动输入添加']

@@ -1,0 +1,11 @@
+add:
+  - action: send
+    locator: //*[@text="姓名　"]/..//*[@resource-id="com.tencent.wework:id/b7m"]
+    value: "{name_value}"
+
+  - action: send
+    locator: //*[@text="邮箱　"]/..//*[@resource-id="com.tencent.wework:id/b7m"]
+    value: "{email_value}"
+
+  - action: click
+    locator: //*[@resource-id='com.tencent.wework:id/aj_']
